@@ -22,3 +22,5 @@ require (
 	k8s.io/klog v1.0.0
 	k8s.io/kubectl v0.18.2
 )
+
+replace github.com/jetstack/cni-migration v0.0.0 => github.com/rhyas/cni-migration v4.0.2
